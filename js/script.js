@@ -58,7 +58,7 @@ heading.classList.add("subheading");
 //Loop through the p elements and change the colour of each to "red".
 
 //My answear for question 5 goes here:
-let paragraphs = document.querySelectorAll("p");
+const paragraphs = document.querySelectorAll("p");
 
 for (let i = 0; i < paragraphs.length; i++) {
   paragraphs[i].style.color = "red";
